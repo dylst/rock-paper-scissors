@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-page,
+.game-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page {
+  background: black;
+  gap: 20px;
+}
+
+.title {
+  font-size: 8vh;
+  color: white;
+}
+
+.btn-play {
+  height: 8vh;
+  width: 12vw;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 4vh;
+  background: black;
+}
+
+.btn-play:hover {
+  background: white;
+  color: black;
+}
+
+.game-page {
+  height: 100vh;
+  width: 100%;
+  display: none;
+  background: black;
+  color: white;
+  gap: 5vh;
+}
+
+.game-options {
+  display: flex;
+  gap: 5vw;
+}
+
+.btn-game {
+  height: 12vh;
+  width: 10vw;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  font-size: 4vh;
+}
+
+.btn-fire:hover {
+  background: rgb(255, 91, 25);
+  box-shadow: 0px 0px 50px 20px #ff513b;
+  color: black;
+}
+
+.btn-water:hover {
+  background: rgb(25, 201, 255);
+  box-shadow: 0px 0px 50px 20px #3bd1ff;
+  color: black;
+}
+
+.btn-leaf:hover {
+  background: rgb(2, 173, 59);
+  box-shadow: 0px 0px 50px 20px #02b12e;
+  color: black;
+}
+
+.game-result {
+  font-size: 5vh;
+}
+
+.game-score {
+  font-size: 3vh;
+}

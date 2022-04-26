@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9b48077394.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <div class="main-page">
+      <h1 class="title">Element Arena</h1>
+      <button class="btn-play">Play</button>
+    </div>
+
+    <!-- Game Page -->
+    <div class="game-page">
+      <h1 class="title">Which power do you choose to wield?</h1>
+      <div class="game-options">
+        <button class="btn-game btn-fire">
+          <i class="fa-solid fa-fire"></i>
+        </button>
+        <button class="btn-game btn-water">
+          <i class="fa-solid fa-water"></i>
+        </button>
+        <button class="btn-game btn-leaf">
+          <i class="fa-solid fa-leaf"></i>
+        </button>
+      </div>
+      <h2 class="game-result"></h2>
+      <h2 class="game-score"></h2>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
